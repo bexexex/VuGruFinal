@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VuGru - Review Quote Request</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Linking the external CSS file -->
+</head>
+<body>
+
+    <!-- Main container that holds both sidebar and content sections -->
+    <div class="container">
+        <!-- Sidebar on the left side -->
+        <div class="sidebar">
+            <h2>VuGru</h2>
+            <button class="create-project-btn">Create Project +</button>
+            <a href="#">Projects</a>
+            <a href="#">Quotes</a>
+            <div class="settings">
+                <a href="#">Settings</a>
+                <a href="#">Log out</a>
+            </div>
+        </div>
+
+        <!-- Main content area where the form is located -->
+        <div class="content">
+            <!-- Review Quote Request Title -->
+            <h1>Review Quote Request</h1>
+            
+            <!-- Project Details -->
+            <label for="projectName">Project Name</label>
+            <input type="text" id="projectName" placeholder="Enter project name">
+
+            <!-- Project Description -->
+            <label for="projectDescription">Project Description</label>
+            <input type="text" id="projectDescription" placeholder="Describe your project details here...">
+
+            <!-- Deliverables section with checkboxes -->
+            <label>Deliverables</label>
+            <div class="checkbox-group">
+                <label><input type="checkbox" id="photos"> Photos</label>
+                <label><input type="checkbox" id="video" checked> Video</label>
+                <label><input type="checkbox" id="virtualTour"> Virtual Tour</label>
+            </div>
+
+            <!-- Completion Date input field -->
+            <label for="completionDate">Completion Date</label>
+            <div class="date-picker-wrapper">
+                <input type="date" id="completionDate" class="text-input date-picker">
+            </div>
+
+            <!-- Action Buttons -->
+            <div class="action-buttons">
+                <button type="button" class="start-quote-btn send-request-btn">Start Quote</button>
+                <button type="button" class="request-info-btn send-request-btn">Request Information</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
